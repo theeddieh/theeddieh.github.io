@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/eddieharrison
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://harrison.pizza
+  * I am eddieharrison (https://keybase.io/eddieharrison) on keybase.
+  * I have a public key ASCLgltcUT6rKnHvbQRAc6cfaZCraNBJoI08SAoQuQpu7go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208b825b5c513eab2a71ef6d044073a71f6990ab68d049a08d3c480a10b90a6eee0a",
+      "host": "keybase.io",
+      "kid": "01208b825b5c513eab2a71ef6d044073a71f6990ab68d049a08d3c480a10b90a6eee0a",
+      "uid": "1d2778abf9e8f117e9a164ac72c3f119",
+      "username": "eddieharrison"
+    },
+    "merkle_root": {
+      "ctime": 1555005742,
+      "hash": "a4ca89052b89ebcf228b153feabd6a3433769714816abddb76397aea2e5d40e48193548f4f85975dc98d593c15ef6f14e69d6f3def8b08fc4fab703323c1cc3e",
+      "hash_meta": "82a2b20b869f3d9a1a6d36e29b6316f5ee2c96ecb007252bf42304944acc2bb4",
+      "seqno": 5145438
+    },
+    "service": {
+      "entropy": "dmTp8bTQdeqVotnbTOiaAx6g",
+      "hostname": "harrison.pizza",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1555005757,
+  "expire_in": 504576000,
+  "prev": "1132ce3e2bbb1319ee3b0cc66ed58aabce566bc2ec4069b265211992c7562a15",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgi4JbXFE+qypx720EQHOnH2mQq2jQSaCNPEgKELkKbu4Kp3BheWxvYWTESpcCE8QgETLOPiu7ExnuOwzGbtWKq85Wa8LsQGmyZSEZksdWKhXEIJmLMTKBgbpsRCE0Dy1wb3Np6R7z5VffqO8jrUN1gsmBAgHCo3NpZ8RAm9zJmzgHhdO1HgGaTW49EYuAnLcfKMkj08PLk0M6U7caeblamhygBdA2r0dCr/d8vquYyvr7iYpdjgskww6KBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHcEItT4ZZudVw2VNuaWFCw6HN3PSp/659yhORsK4UYZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eddieharrison
+
+==================================================================
