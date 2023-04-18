@@ -1,0 +1,25 @@
+* {
+    border-style: ridge;
+    border-width: 18px;
+    margin: 1em;
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: auto;
+
+    min-height: fit-content;
+
+    padding: 0;
+}
+
+:hover {
+    border-style: groove;
+}
+
+:active {
+    border-style: ridge;
+}
