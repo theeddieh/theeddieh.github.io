@@ -2,16 +2,15 @@
     border-style: ridge;
     border-width: 12px;
 
-    margin: 0.5em;
+    margin: 12px;
 }
 
 html {
-    margin: 1em;
+    margin: 24px;
 }
 
 body {
     font-family: serif;
-    padding: 1em;
 }
 
 :hover {
@@ -24,7 +23,7 @@ body {
     /* border-color: red; */
 }
 
-.flex-center {
+.center-this {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,36 +31,70 @@ body {
     min-width: auto;
     min-height: fit-content;
 
-
-    margin: 0;
     padding: 0;
 }
 
-.flex-center-borderless {
+.borderless-item {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    min-width: auto;
-    min-height: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
     border: none;
 
     margin: 0;
     padding: 0;
 }
 
-.flex-center-borderless>img {
+.borderless-item img {
     border: none;
 }
 
-.flex-center-borderless>li {
+.borderless-item li {
     border: none;
 }
 
+/* to be the future "Readlists" containers */
 .flex-bookmarks {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.flex-bookmarks>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.filler {
+    min-height: 1em;
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1em;
+}
+
+.readlists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    max-width: fit-content;
+    min-height: fit-content;
+    border: auto;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.readlist li {
+    border: none;
 }
 
 h1,
@@ -72,68 +105,28 @@ h5,
 h6 {
     line-height: 1.0;
     text-align: center;
-    margin: 0.25em;
-    padding: 0.25em;
-}
-
-h3,
-h4,
-h5 {
-    font-style: italic;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    line-height: 1.0;
-}
-
-h5 {
-    margin-left: 4em;
-    margin-right: 4em;
-
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-}
-
-h6 {
-    margin-left: 5em;
-    margin-right: 5em;
-}
-
-p {
-    line-height: 1.0;
-
-    min-width: fit-content;
-
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
 }
 
 ul {
     line-height: 1.0;
 
-    list-style: square;
+    list-style-type: square;
     list-style-position: inside;
 
     max-width: fit-content;
     min-width: fit-content;
-
-    padding: 0.5em;
+    /* text-align: start; */
 }
 
-li {
-    line-height: 1.0;
-    text-align: start;
-
+li,
+li:visited,
+li:hover,
+li:active {
     border-style: none;
-
-    max-width: fit-content;
-    min-width: fit-content;
 }
+
+
+
 
 .jump {
     text-align: center;
@@ -148,22 +141,22 @@ li {
 
 a {
     color: blue;
-    border: none;
+    border-style: none;
 }
 
 a:visited {
     color: purple;
-    border: none;
+    border-style: none;
 }
 
 
 a:hover {
     color: green;
-    border: none;
+    border-style: none;
 
 }
 
 a:active {
     color: red;
-    border: none;
+    border-style: none;
 }
