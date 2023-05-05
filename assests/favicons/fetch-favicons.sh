@@ -15,16 +15,19 @@
 # some you need the protocol?
 
 domains=(
-    "www.harrison.pizza"
-    "github.com"
-    "twitter.com"
-    "https://blog.harrison.pizza"
-    "tilde.club"
-    "spacehey.com"
-    "keybase.io"
-    "stackoverflow.com"
-    "linkedin.com"
+    "instagram.com"
+    "youtube.com"
 )
+# "www.harrison.pizza"
+# "github.com"
+# "twitter.com"
+# "https://blog.harrison.pizza"
+# "tilde.club"
+# "spacehey.com"
+# "keybase.io"
+# "stackoverflow.com"
+# "linkedin.com"
+# "mastodon.xyz"
 
 for d in "${domains[@]}"; do
     echo "${d}"
