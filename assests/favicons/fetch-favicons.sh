@@ -15,8 +15,7 @@
 # some you need the protocol?
 
 domains=(
-    "instagram.com"
-    "youtube.com"
+    "read.cv"
 )
 # "www.harrison.pizza"
 # "github.com"
@@ -28,6 +27,8 @@ domains=(
 # "stackoverflow.com"
 # "linkedin.com"
 # "mastodon.xyz"
+# "instagram.com"
+# "youtube.com"
 
 for d in "${domains[@]}"; do
     echo "${d}"
