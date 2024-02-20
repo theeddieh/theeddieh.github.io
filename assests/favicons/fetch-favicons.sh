@@ -10,13 +10,17 @@
 #     "http://www.google.com/s2/favicons?domain=https://keybase.io/eddieharrison"
 #     "http://www.google.com/s2/favicons?domain=https://stackoverflow.com/users/1299930/theeddieh"
 #     "http://www.google.com/s2/favicons?domain=https://www.linkedin.com/in/edwardjharrison"
+#     "http://www.google.com/s2/favicons?domain=https://bsky.app/profile/edharrison.bsky.social"
+#     "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://bsky.app/profile/edharrison.bsky.social&size=16"
 # )
 
 # some you need the protocol?
 
 domains=(
-    "read.cv"
+    "bsky.app"
 )
+
+# "read.cv"
 # "www.harrison.pizza"
 # "github.com"
 # "twitter.com"

@@ -1,12 +1,15 @@
 * {
     border-style: ridge;
     border-width: 12px;
-
     margin: 12px;
 }
 
 html {
     margin: 24px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 body {
@@ -57,6 +60,25 @@ body {
 
 .borderless-item li {
     border: none;
+}
+
+.borderless-item del {
+    text-decoration: line-through;
+    background-color: #fbb;
+    color: #555;
+
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.borderless-item ins {
+    text-decoration: none;
+    background-color: #d4fcbc;
+
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* to be the future "Readlists" containers */
