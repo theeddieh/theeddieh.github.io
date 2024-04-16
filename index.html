@@ -39,6 +39,18 @@
             gtag('config', 'G-YDDZXJE4BN');
         </script>
 
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js">
+        </script>
+
+        <script>
+            $(function () {
+                $("#button").click(function () {
+                    $("#item").toggle();
+                });
+            });
+        </script>
+
+
         <meta charset="UTF-8">
         <meta name="viewport"
               content="width=device-width, initial-scale=1.0">
@@ -55,13 +67,18 @@
 
         <div class="flex-bookmarks">
             <div>
-                <h2>Overview</h2>
-                <iframe src="https://www.youtube.com/embed/KG6SL6Mf7ak"
+                <h2 id="button">Overview</h2>
+
+
+                <iframe id="item"
+                        src="https://www.youtube.com/embed/KG6SL6Mf7ak"
                         title="Live ISS Stream via HDEV - High-Definition External Video (Official NASA Stream)"
                         width="535"
                         height="310"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+
+
             </div>
             <div>
                 <h2>where to find me</h2>
@@ -84,7 +101,7 @@
                     </li>
                     <li class="borderless-item">
                         <img src="assests/favicons/readcv.ico">
-                        <a href="https://read.cv/eddh">resume</a>
+                        <a href="https://read.cv/eddh">[resume](read.cv/eddh)</a>
                     </li>
                     <li class="borderless-item">
                         <img src="assests/favicons/keybase.ico">
@@ -111,12 +128,16 @@
                         </a>
                     </li>
                     <li class="borderless-item">
-                        <img src="assests/favicons/tilde.club/favicon-16x16.png">
-                        <a href="https://tilde.club/~ed/">tilde.club/~ed/</a>
+                        <img src="assests/favicons/youtube.ico">
+                        <a href="https://www.youtube.com/theeddieharrison">youtube.com/theeddieharrison</a>
                     </li>
                     <li class="borderless-item">
-                        <img src="assests/favicons/spacehey.ico">
-                        <a href="https://spacehey.com/edd">spacehey.com/edd</a>
+                        <img src="assests/favicons/instagram.ico">
+                        <a href="https://www.instagram.com/theeddieh/">instagram.com/theeddieh</a>
+                    </li>
+                    <li class="borderless-item">
+                        <img src="assests/favicons/tilde.club/favicon-16x16.png">
+                        <a href="https://tilde.club/~ed/">tilde.club/~ed/</a>
                     </li>
                     <li class="borderless-item">
                         <img src="assests/favicons/mastodon.ico">
@@ -131,12 +152,8 @@
                         <a href="https://social.targaryen.house">@edd@social.targaryen.house</a>
                     </li>
                     <li class="borderless-item">
-                        <img src="assests/favicons/youtube.ico">
-                        <a href="https://www.youtube.com/theeddieharrison">youtube.com/theeddieharrison</a>
-                    </li>
-                    <li class="borderless-item">
-                        <img src="assests/favicons/instagram.ico">
-                        <a href="https://www.instagram.com/theeddieh/">instagram.com/theeddieh</a>
+                        <img src="assests/favicons/spacehey.ico">
+                        <a href="https://spacehey.com/edd">spacehey.com/edd</a>
                     </li>
                     <!--
 
@@ -144,7 +161,7 @@
                         <img src="assests/favicons/TKTK.ico">
                         <a href="TKTK">TKTK</a>
                     </li>
-                    
+
                     -->
                 </ul>
 

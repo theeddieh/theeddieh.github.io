@@ -14,6 +14,10 @@ html {
 
 body {
     font-family: serif;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 :hover {
@@ -61,6 +65,8 @@ body {
 .borderless-item li {
     border: none;
 }
+
+/* courtesy https: //developer.mozilla.org/en-US/docs/Web/HTML/Element/del */
 
 .borderless-item del {
     text-decoration: line-through;
