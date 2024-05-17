@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script defer
+                src="calendar.js">
+                </script>
+
+        <style>
+            * {
+                border-style: ridge;
+                border-width: 12px;
+                margin: 12px;
+            }
+
+            html {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            :hover {
+                border-style: groove;
+                /* border-color: purple; */
+            }
+
+            :active {
+                border-style: ridge;
+                /* border-color: red; */
+            }
+
+            .flex-container {
+                display: flex;
+                flex-wrap: wrap;
+
+                resize: both;
+                align-items: center;
+                justify-content: center;
+                overflow: auto;
+
+                background-color: DodgerBlue;
+            }
+
+            .flex-container>div {
+
+                /* toggle? */
+                resize: both;
+
+                align-items: center;
+                justify-content: center;
+                overflow: auto;
+
+                background-color: #f1f1f1;
+
+                /* background: #EF476F; */
+                /* background: #FFD166; */
+                /* background: #06D6A0; */
+
+                width: 100px;
+                margin: 10px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px;
+
+            }
+
+            .calendar-days {
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                gap: 2px;
+                color: #0A0921;
+            }
+
+            .calendar-days div {
+                width: 37px;
+                height: 33px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 5px;
+                position: relative;
+                cursor: pointer;
+                animation: to-top 1s forwards;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1>The flex-wrap and resize Property</h1>
+
+        <p>The "flex-wrap: wrap;" specifies that the flex items will wrap if necessary:</p>
+        <p>The "resize: both;" specifies that the element is resizable:</p>
+
+        <div class="flex-container">
+            <div class="calendar-days"
+                 id="January">
+            </div>
+            <div class="calendar-days"
+                 id="February">
+            </div>
+            <div class="calendar-days"
+                 id="March">
+            </div>
+            <div class="calendar-days"
+                 id="April">
+            </div>
+            <div class="calendar-days"
+                 id="May">
+            </div>
+            <div class="calendar-days"
+                 id="June">
+            </div>
+            <div class="calendar-days"
+                 id="July">
+            </div>
+            <div class="calendar-days"
+                 id="August">
+            </div>
+            <div class="calendar-days"
+                 id="September">
+            </div>
+            <div class="calendar-days"
+                 id="October">
+            </div>
+            <div class="calendar-days"
+                 id="November">
+            </div>
+            <div class="calendar-days"
+                 id="December">
+            </div>
+        </div>
+
+    </body>
+
+</html>

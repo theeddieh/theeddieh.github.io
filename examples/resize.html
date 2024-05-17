@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+            .resizable>body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+            }
+
+            .resizable>div {
+                width: 100px;
+                height: 100px;
+                margin: 0 1rem;
+                overflow: auto;
+            }
+
+            .resizable>div.both {
+                resize: both;
+                background: #EF476F;
+            }
+
+            .resizable>div.horizontal {
+                resize: horizontal;
+                background: #FFD166;
+            }
+
+            .resizable>div.vertical {
+                resize: vertical;
+                background: #06D6A0;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1>The resize Property</h1>
+
+        <div class="resizable">
+            <div class="both"></div>
+            <div class="horizontal"></div>
+            <div class="vertical"></div>
+        </div>
+
+    </body>
+
+</html>

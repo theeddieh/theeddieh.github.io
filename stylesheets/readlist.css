@@ -1,0 +1,48 @@
+* {
+    border-style: ridge;
+    border-width: 12px;
+    margin: 12px;
+}
+
+
+html {
+    margin: 24px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+:hover {
+    border-style: groove;
+    /* border-color: purple; */
+}
+
+:active {
+    border-style: ridge;
+    /* border-color: red; */
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+    border-style: none;
+}
+
+.readlists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    max-width: fit-content;
+    min-height: fit-content;
+    border: auto;
+
+    margin: 0;
+    padding: 0;
+
+}

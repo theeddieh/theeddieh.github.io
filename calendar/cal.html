@@ -1,0 +1,100 @@
+<!-- const arEG = new Intl.Locale("ar-EG");
+console.log(arEG.getCalendars()); // ["gregory", "coptic", "islamic", "islamic-civil", "islamic-tbla"] -->
+
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+
+        <script defer
+                src="hello-world/calendar.js">
+                </script>
+
+
+
+        <style>
+            * {
+                border-style: ridge;
+                border-width: 12px;
+                margin: 12px;
+            }
+
+            /* html {
+                display: flex;
+                flex-wrap: wrap;
+            } */
+
+            #carosel {
+                display: grid;
+                grid-template-columns: 1fr 5fr;
+                grid-gap: 20px;
+                overflow: hidden
+            }
+
+            .calendar-days {
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                gap: 2px;
+                color: #0A0921;
+            }
+
+            .calendar-days div {
+                width: 37px;
+                height: 33px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 5px;
+                position: relative;
+                cursor: pointer;
+                animation: to-top 1s forwards;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="carosel">
+            <div class="calendar-days"
+                 id="January">
+            </div>
+            <div class="calendar-days"
+                 id="February">
+            </div>
+            <div class="calendar-days"
+                 id="March">
+            </div>
+            <div class="calendar-days"
+                 id="April">
+            </div>
+            <div class="calendar-days"
+                 id="May">
+            </div>
+            <div class="calendar-days"
+                 id="June">
+            </div>
+            <div class="calendar-days"
+                 id="July">
+            </div>
+            <div class="calendar-days"
+                 id="August">
+            </div>
+            <div class="calendar-days"
+                 id="September">
+            </div>
+            <div class="calendar-days"
+                 id="October">
+            </div>
+            <div class="calendar-days"
+                 id="November">
+            </div>
+            <div class="calendar-days"
+                 id="December">
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

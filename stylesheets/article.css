@@ -1,0 +1,41 @@
+article {
+    width: 50%;
+    margin: auto;
+
+    background-color: lightcyan;
+}
+
+article>* {
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article>h1 {
+    width: 90%;
+}
+
+article>h2 {
+    width: 80%;
+}
+
+article>h3 {
+    width: 70%;
+}
+
+article>h4 {
+    width: 60%;
+}
+
+article>h5 {
+    width: 50%;
+}
+
+article>h6 {
+    width: 40%;
+}
+
+article>p {
+    width: 75%;
+}

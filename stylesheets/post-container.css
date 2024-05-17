@@ -1,0 +1,41 @@
+.post-container {
+    width: 50%;
+    margin: auto;
+
+    background-color: lightcyan;
+}
+
+.post-container>* {
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-container>h1 {
+    width: 90%;
+}
+
+.post-container>h2 {
+    width: 80%;
+}
+
+.post-container>h3 {
+    width: 70%;
+}
+
+.post-container>h4 {
+    width: 60%;
+}
+
+.post-container>h5 {
+    width: 50%;
+}
+
+.post-container>h6 {
+    width: 40%;
+}
+
+.post-container>p {
+    width: 75%;
+}

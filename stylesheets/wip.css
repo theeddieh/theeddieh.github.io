@@ -1,0 +1,11 @@
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+div {
+    background:url('https://upload.wikimedia.org/wikipedia/commons/1/19/Under_construction_graphic.gif') repeat;
+    height: 900px;
+}

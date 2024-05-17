@@ -1,11 +1,197 @@
-img.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+* {
+    border-style: double;
+    border-width: 4px;
 
-div {
-    background:url('https://upload.wikimedia.org/wikipedia/commons/1/19/Under_construction_graphic.gif') repeat;
-    height: 900px;
+    margin: 2px;
+    padding: 2px;
 }
+
+:hover {
+    border-style: solid;
+}
+
+:active {
+    border-style: double;
+}
+
+html {
+    margin: 16px;
+}
+
+body {
+
+    max-width: max-content;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+abbr {
+    display: inline;
+}
+
+area {
+    display: none;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+audio {}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+button {
+    border: 2px solid teal;
+
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: teal;
+    color: white;
+}
+
+address {
+    display: block;
+    font-style: italic;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+canvas {
+    height: 150px;
+    width: 300px;
+}
+
+cite {
+    font-style: italic;
+}
+
+code {
+    font-family: monospace;
+}
+
+details {
+    display: block;
+}
+
+details>summary {
+    cursor: pointer;
+}
+
+dialog {}
+
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+figcaption {
+    display: block;
+}
+
+footer {}
+
+header {}
+
+img {
+    display: inline-block;
+}
+
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+}
+
+map {
+    display: inline;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+menu {}
+
+meter {}
+
+nav {
+    display: block;
+}
+
+optgroup {}
+
+option {}
+
+q {
+    display: inline;
+    color: gray;
+    font-style: italic;
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
+section {}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+textarea {}
+
+progress {}
+
+video {}

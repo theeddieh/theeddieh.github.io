@@ -1,0 +1,49 @@
+* {
+    border-style: ridge;
+    border-width: 16px;
+
+    margin: 8px;
+    padding: 8px;
+
+    /* overflow: scroll;
+
+    text-align: center;
+
+    min-height: 100vh;
+    min-width: 100vw; */
+}
+
+html {
+    /* min-height: 100vh;
+    min-width: 100vw; */
+
+
+}
+
+body {
+
+    /* max-width: max-content;
+    margin: auto; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+    resize: both;
+}
+
+:hover {
+    border-style: groove;
+}
+
+:active {
+    border-style: ridge;
+}
+
+.video-container {
+    padding: 8px;
+    resize: both;
+    background-color: steelblue;
+}
