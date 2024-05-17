@@ -16,10 +16,17 @@
 
 # some you need the protocol?
 
-domains=(
-    "bsky.app"
-)
-
+# substack.com
+# feedly.com
+# getpocket.com
+# aboard.com
+# roamresearch.com
+# workflowy.com
+# spotify.com
+# goodreads.com
+# letterboxd.com
+# soundcloud.com
+# "bsky.app"
 # "read.cv"
 # "www.harrison.pizza"
 # "github.com"
@@ -34,7 +41,20 @@ domains=(
 # "instagram.com"
 # "youtube.com"
 
+domains=(
+)
+
 for d in "${domains[@]}"; do
     echo "${d}"
-    wget -O ${d}.png "http://www.google.com/s2/favicons?domain=${d}"
+
+    name="${d%%.*}" # retain the part before the first period
+
+    out="${name}.png"
+    icon="${name}.ico"
+
+    echo ${out}
+    echo ${icon}
+
+    wget --no-verbose --output-document ${out} "http://www.google.com/s2/favicons?domain=${d}"
+    mv ${out} ${icon}
 done
