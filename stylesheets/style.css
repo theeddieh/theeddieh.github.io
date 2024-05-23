@@ -6,18 +6,10 @@
 
 html {
     margin: 24px;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 body {
     font-family: serif;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 :hover {
