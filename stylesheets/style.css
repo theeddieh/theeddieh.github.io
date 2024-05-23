@@ -12,6 +12,10 @@ body {
     font-family: serif;
 }
 
+iframe {
+    min-width: unset;
+}
+
 :hover {
     border-style: groove;
     /* border-color: purple; */
