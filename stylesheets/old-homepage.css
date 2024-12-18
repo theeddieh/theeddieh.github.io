@@ -1,0 +1,191 @@
+* {
+    border-style: ridge;
+    border-width: 12px;
+    margin: 12px;
+}
+
+html {
+    margin: 24px;
+}
+
+body {
+    font-family: serif;
+}
+
+iframe {
+    min-width: unset;
+}
+
+:hover {
+    border-style: groove;
+    /* border-color: purple; */
+}
+
+:active {
+    border-style: ridge;
+    /* border-color: red; */
+}
+
+.center-this {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: auto;
+    min-height: fit-content;
+
+    padding: 0;
+}
+
+.center-this>ul {
+    padding: 0;
+}
+
+.borderless-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: fit-content;
+    max-width: fit-content;
+    border: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.borderless-item img {
+    border: none;
+}
+
+.borderless-item li {
+    border: none;
+}
+
+/* courtesy https: //developer.mozilla.org/en-US/docs/Web/HTML/Element/del */
+
+.borderless-item del {
+    text-decoration: line-through;
+    background-color: #fbb;
+    color: #555;
+
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.borderless-item ins {
+    text-decoration: none;
+    background-color: #d4fcbc;
+
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* to be the future "Readlists" containers */
+.flex-bookmarks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-bookmarks>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-bookmarks ul {
+    padding: 0;
+}
+
+.filler {
+    min-height: 1em;
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1em;
+}
+
+.readlists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    max-width: fit-content;
+    min-height: fit-content;
+    border: auto;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.readlist li {
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.0;
+    text-align: center;
+}
+
+ul {
+    line-height: 1.0;
+
+    list-style-type: square;
+    list-style-position: inside;
+
+    max-width: fit-content;
+    min-width: fit-content;
+    /* text-align: start; */
+}
+
+li,
+li:visited,
+li:hover,
+li:active {
+    border-style: none;
+}
+
+.jump {
+    text-align: center;
+}
+
+.end-tag {
+    text-align: center;
+    font-size: smaller;
+    border: none;
+    padding: 1em;
+}
+
+a {
+    color: blue;
+    border-style: none;
+}
+
+a:visited {
+    color: purple;
+    border-style: none;
+}
+
+
+a:hover {
+    color: green;
+    border-style: none;
+
+}
+
+a:active {
+    color: red;
+    border-style: none;
+}
